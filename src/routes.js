@@ -9,6 +9,7 @@ const sessionController = require('./controllers/sessionController');
 const spotController = require('./controllers/spotController');
 
 routes.post('/session', sessionController.store );
-routes.post('/spots', upload.single('thumbnail'),spotController.store );
+routes.get('/spots', spotController.index );
+routes.post('/spots', upload.single('thumbnail'), spotController.store );
 
 module.exports = routes;

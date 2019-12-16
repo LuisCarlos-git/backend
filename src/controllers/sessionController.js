@@ -14,4 +14,4 @@ module.exports = {
 
     }
 }
-//crianção de usuarios e veruificação se ele e existente ou não
+//crianção de usuarios e verificação se ele e existente ou não
